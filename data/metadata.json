@@ -1,0 +1,78 @@
+{
+  "description": "Metadata for all datasets used in the ML Learning Platform",
+  "version": "1.0.0",
+  "datasets": {
+    "iris": {
+      "name": "Iris Flower Dataset",
+      "description": "Classic dataset for classification with 3 species of iris flowers",
+      "n_samples": 150,
+      "n_features": 4,
+      "n_classes": 3,
+      "task": "Classification",
+      "source": "UCI Machine Learning Repository",
+      "url": "https://archive.ics.uci.edu/ml/datasets/iris",
+      "used_in": ["module_2_statistical_inference", "module_3_machine_learning_algorithms"]
+    },
+    "titanic": {
+      "name": "Titanic Survival",
+      "description": "Predict survival on the Titanic based on passenger features",
+      "n_samples": 891,
+      "n_features": 11,
+      "task": "Classification",
+      "source": "Kaggle",
+      "url": "https://www.kaggle.com/c/titanic",
+      "used_in": ["module_3_machine_learning_algorithms"]
+    },
+    "boston_housing": {
+      "name": "Boston Housing Prices",
+      "description": "Predict median home values in Boston suburbs",
+      "n_samples": 506,
+      "n_features": 13,
+      "task": "Regression",
+      "source": "UCI Machine Learning Repository",
+      "url": "https://archive.ics.uci.edu/ml/datasets/Housing",
+      "used_in": ["module_3_machine_learning_algorithms"]
+    },
+    "mnist": {
+      "name": "MNIST Handwritten Digits",
+      "description": "Classify handwritten digits (0-9) from 28x28 images",
+      "n_samples": 70000,
+      "n_features": 784,
+      "n_classes": 10,
+      "task": "Classification",
+      "source": "Yann LeCun",
+      "url": "http://yann.lecun.com/exdb/mnist/",
+      "used_in": ["module_4_neural_networks_deep_learning"]
+    },
+    "wine_quality": {
+      "name": "Wine Quality",
+      "description": "Predict wine quality based on physicochemical properties",
+      "n_samples": 1599,
+      "n_features": 11,
+      "task": "Regression/Classification",
+      "source": "UCI Machine Learning Repository",
+      "url": "https://archive.ics.uci.edu/ml/datasets/wine+quality",
+      "used_in": ["module_2_statistical_inference"]
+    },
+    "mall_customers": {
+      "name": "Mall Customer Segmentation",
+      "description": "Customer data for clustering and segmentation analysis",
+      "n_samples": 200,
+      "n_features": 4,
+      "task": "Clustering",
+      "source": "Synthetic dataset",
+      "used_in": ["module_3_machine_learning_algorithms"]
+    },
+    "cifar10": {
+      "name": "CIFAR-10",
+      "description": "60,000 32x32 color images in 10 classes",
+      "n_samples": 60000,
+      "n_features": 3072,
+      "n_classes": 10,
+      "task": "Classification",
+      "source": "University of Toronto",
+      "url": "https://www.cs.toronto.edu/~kriz/cifar.html",
+      "used_in": ["capstone_projects"]
+    }
+  }
+}

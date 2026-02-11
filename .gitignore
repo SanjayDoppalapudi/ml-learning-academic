@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+.jupyter/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files (large)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.h5
+data/raw/*.pkl
+data/raw/*.npy
+data/raw/images/
+!data/raw/.gitkeep
+
+# Logs (except structure)
+logs/*.json
+logs/*.html
+!logs/.gitkeep
+
+# Exports (generated)
+exports/pdf/*.pdf
+exports/scripts/*.py
+exports/html/*.html
+!exports/pdf/.gitkeep
+!exports/scripts/.gitkeep
+!exports/html/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Model files (large)
+*.h5
+*.pkl
+*.joblib
+models/
+
+# Secrets
+config/credentials.json
+config/token.json
+.env.local
+
+# Progress files (personal)
+learning_progress.json
+progress_backup.json
+
+# Keep directory structure
+!.gitkeep
