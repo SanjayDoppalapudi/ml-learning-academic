@@ -45,6 +45,43 @@ This platform contains **22 hands-on projects** across **5 core modules** plus *
 
 ### 🚀 Quick Start
 
+#### Option 1: Local Learning (Recommended)
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Launch JupyterLab:**
+   ```bash
+   jupyter lab
+   ```
+
+3. **Start with Module 0** if you need a Python refresher, or jump to **Module 1** to begin learning.
+
+4. **Track your progress:** Progress is automatically saved to `logs/` and synced via Git.
+
+#### Option 2: Deploy to Web (Access Anywhere)
+
+Deploy to GitHub Pages in 3 simple steps:
+
+```bash
+# 1. Run the deploy helper
+./deploy.sh your_username ml-learning-platform
+
+# 2. Go to GitHub → Settings → Pages
+# 3. Enable GitHub Pages (select gh-pages branch)
+```
+
+📖 **Detailed deployment guide:** [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)  
+⚡ **Quick deploy guide:** [QUICK_DEPLOY.md](QUICK_DEPLOY.md)
+
+Your site will be live at: `https://your_username.github.io/ml-learning-platform`
+
+---
+
+### 📦 Installation (Local)
+
 1. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
