@@ -1,0 +1,104 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+parts:
+  - caption: Getting Started
+    chapters:
+    - file: module_0/index
+      sections:
+      - file: module_0/01_numpy_refresher
+
+  - caption: Module 1 - Mathematical Foundations
+    chapters:
+    - file: module_1/index
+      sections:
+      - file: module_1/project_1_1_array_operations
+      - file: module_1/project_1_2_image_transformations
+      - file: module_1/project_1_3_optimization_basics
+      - file: module_1/project_1_4_dimensionality_reduction
+    - file: module_1/exercises/index
+      sections:
+      - file: module_1/exercises/set_1_vectors
+      - file: module_1/exercises/set_2_matrices
+      - file: module_1/exercises/set_3_transformations
+      - file: module_1/exercises/set_4_optimization
+      - file: module_1/exercises/set_5_eigendecomposition
+
+  - caption: Module 2 - Statistical Inference
+    chapters:
+    - file: module_2/index
+      sections:
+      - file: module_2/project_2_1_descriptive_analysis
+      - file: module_2/project_2_2_probability_distributions
+      - file: module_2/project_2_3_hypothesis_testing
+      - file: module_2/project_2_4_bayesian_inference
+    - file: module_2/exercises/index
+      sections:
+      - file: module_2/exercises/set_1_descriptive_stats
+      - file: module_2/exercises/set_2_distributions
+      - file: module_2/exercises/set_3_hypothesis_testing
+      - file: module_2/exercises/set_4_bayesian
+
+  - caption: Module 3 - Machine Learning Algorithms
+    chapters:
+    - file: module_3/index
+      sections:
+      - file: module_3/project_3_1_linear_regression
+      - file: module_3/project_3_2_logistic_regression
+      - file: module_3/project_3_3_decision_trees
+      - file: module_3/project_3_4_kmeans
+      - file: module_3/project_3_5_model_evaluation
+    - file: module_3/exercises/index
+      sections:
+      - file: module_3/exercises/set_1_linear_regression
+      - file: module_3/exercises/set_2_logistic_regression
+      - file: module_3/exercises/set_3_decision_trees
+      - file: module_3/exercises/set_4_clustering
+      - file: module_3/exercises/set_5_model_evaluation
+
+  - caption: Module 4 - Neural Networks & Deep Learning
+    chapters:
+    - file: module_4/index
+      sections:
+      - file: module_4/project_4_1_perceptron
+      - file: module_4/project_4_2_mlp_numpy
+      - file: module_4/project_4_3_intro_pytorch
+      - file: module_4/project_4_4_mnist_classifier
+    - file: module_4/exercises/index
+      sections:
+      - file: module_4/exercises/set_1_perceptron
+      - file: module_4/exercises/set_2_backpropagation
+      - file: module_4/exercises/set_3_pytorch_basics
+      - file: module_4/exercises/set_4_cnn
+
+  - caption: Capstone Projects
+    chapters:
+    - file: capstones/index
+      sections:
+      - file: capstones/project_1_regression/index
+        sections:
+        - file: capstones/project_1_regression/01_business_problem
+        - file: capstones/project_1_regression/02_data_exploration
+        - file: capstones/project_1_regression/03_feature_engineering
+        - file: capstones/project_1_regression/04_model_building
+        - file: capstones/project_1_regression/05_evaluation_deployment
+      - file: capstones/project_2_classification/index
+      - file: capstones/project_3_neural_network/index
+
+  - caption: Solutions
+    chapters:
+    - file: solutions/index
+      sections:
+      - file: solutions/module_1_solutions
+      - file: solutions/module_2_solutions
+      - file: solutions/module_3_solutions
+      - file: solutions/module_4_solutions
+
+  - caption: Appendix
+    chapters:
+    - file: appendix/math_reference
+    - file: appendix/python_cheatsheet
+    - file: appendix/datasets_reference

@@ -1,0 +1,71 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: ML Learning Platform
+author: ML Learner
+copyright: "2025"
+logo: logo.png
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: cache
+  timeout: 300
+  stderr_output: remove
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: ml-learning-platform.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/username/ml-learning-platform  # Replace with actual repo
+  path_to_book: book
+  branch: main
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
+  extra_footer: |
+    <div class="footer-content">
+      <p>Built with ❤️ for systematic ML learning</p>
+    </div>
+
+# Configure your Binder links, such as the URL of the BinderHub.
+launch_buttons:
+  notebook_interface: jupyterlab
+  binderhub_url: https://mybinder.org
+  thebe: true
+
+sphinx:
+  config:
+    html_theme_options:
+      navigation_with_keys: false
+      home_page_in_toc: true
+      show_navbar_depth: 2
+      show_toc_level: 2
+      repository_url: https://github.com/username/ml-learning-platform
+      use_repository_button: true
+      use_edit_page_button: true
+    
+# Extensions
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+    - tasklist
