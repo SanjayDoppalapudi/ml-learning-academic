@@ -18,7 +18,7 @@ parts:
       - file: module_1/project_1_1_array_operations
       - file: module_1/project_1_2_image_transformations
       - file: module_1/project_1_3_optimization_basics
-      - file: module_1/project_1_4_dimensionality_reduction.md
+      - file: module_1/project_1_4_dimensionality_reduction
     - file: module_1/exercises/index
       sections:
       - file: module_1/exercises/set_1_vectors
